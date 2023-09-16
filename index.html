@@ -1,9 +1,131 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <!-- head definitions go here -->
-    </head>
-    <body>
-        <!-- the content goes here -->
-    </body>
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Data-Efficient Learning for Mobile Manipulation using Vision-Based Topological Planning">
+  <meta name="keywords" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Data-Efficient Learning for Mobile Manipulation using\\Vision-Based Topological Planning</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+
+  <script type="text/javascript" async
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+  </script>
+</head>
+
+
+<body>
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">Data-Efficient Learning for Mobile Manipulation using Vision-Based Topological Planning</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://zipengfu.github.io/">Zipeng Fu</a>&nbsp;&nbsp;&nbsp;&nbsp;
+              <a href="https://ai.stanford.edu/~cbfinn/">Chelsea Finn</a>
+            </span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="./resources/Data-Efficient Learning for Mobile Manipulation using Vision-Based Topological Planning.pdf"
+                   class="external-link button is-normal is-rounded is-dark" target="_blank">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-full-width is-centered has-text-centered">
+        <h2 class="title is-2" style="text-align: center;" id="method-video">Suupplementary Video</h2>
+        <div class="publication-video">
+          <iframe src="https://www.youtube.com/embed/l-uVxjot2go" title="Robot Parkour Learning (CoRL 2022)"
+                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+    <div class="container">
+      <!-- Abstract. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-two-thirds">
+          <h2 class="title is-2">Our Algorithm</h2>
+          <div class="content has-text-justified">
+            <image src="./resources/algorithm.png" width="100%"></image>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<section class="section">
+  <div class="container">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-two-thirds">
+        <h2 class="title is-2">Details about Real-World Experiments</h2>
+        <div class="content has-text-justified">
+          <p>
+            For each real-world bedroom tidying tasks, we measure success by checking if the final state \( s_f \) is reached or not. For the 'sock' task, we check if the sock is successfully transported to be inside the the container box from the drawer. For the 'trash' task, we check if the trash is successfully thrown into the trash can after being grabbed off the shelf by the robot. For the 'wine' task, we check if the tissue covers the spilled wine at the end after the robot grips the tissue from the tissue box.  
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+    <div class="container">
+      <!-- Abstract. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-two-thirds">
+          <h2 class="title is-2">Details about Simulation Experiments</h2>
+          <div class="content has-text-justified">
+            <p>
+                For the simulation tasks, we measure success by checking if the cube can be transferred to the second table from the first table. We also enforce a maximum time limit for completing the time, which is 500 time steps. 
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+</body>
 </html>
